@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luiggie Consultores</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Luiggie Consultores</h1>
+        <p>Generando aprendizaje en los entrenamientos interactivos con las empresas</p>
+    </header>
+    <nav>
+        <a href="#capsulas">Cápsulas de Aprendizaje</a>
+        <a href="#articulos">Artículos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="capsulas">
+            <h2>Cápsulas de Aprendizaje</h2>
+            <p>Accede a nuestras cápsulas de aprendizaje para mejorar tus habilidades y conocimientos.</p>
+            <!-- Aquí puedes agregar enlaces o contenido relacionado con las cápsulas de aprendizaje -->
+        </section>
+        <section id="articulos">
+            <h2>Artículos</h2>
+            <p>Lee nuestros artículos sobre las mejores prácticas y novedades en el sector.</p>
+            <!-- Aquí puedes agregar enlaces o contenido relacionado con los artículos -->
+        </section>
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <p>Ofrecemos una variedad de servicios para satisfacer las necesidades de tu empresa.</p>
+            <ul>
+                <li>Consultoría en capacitación</li>
+                <li>Desarrollo de programas de entrenamiento</li>
+                <li>Evaluación de competencias</li>
+                <li>Coaching y mentoría</li>
+                <!-- Puedes añadir más servicios aquí -->
+            </ul>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Déjanos tus datos y nos pondremos en contacto contigo para discutir tus necesidades.</p>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="servicio">Servicio requerido:</label>
+                <textarea id="servicio" name="servicio" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Luiggie Consultores. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
